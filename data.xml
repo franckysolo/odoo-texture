@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="product_kitchen" model="product.public.category">
+            <field name="name">Kichen furniture</field>
+            <field name="sequence">0</field>
+        </record>
+
+        <record id="product_garden" model="product.public.category">
+            <field name="name">Garden furniture</field>
+            <field name="sequence">1</field>
+        </record>
+
+        =======
+        kitchen
+        =======
+        <record id="product_kitchen_chair" model="product.public.category">
+            <field name="name">Chair (Seat height 45cm)</field>
+            <field name="parent_id" ref="product_kitchen"/>
+            <field name="sequence">0</field>
+        </record>
+
+        <record id="product_kitchen_snack_stool" model="product.public.category">
+            <field name="name">Snack-bar stool (Seat height 65cm)</field>
+            <field name="parent_id" ref="product_kitchen"/>
+            <field name="sequence">1</field>
+        </record>
+
+        <record id="product_kitchen_cylinder_stool" model="product.public.category">
+            <field name="name">Stool with cylinder</field>
+            <field name="parent_id" ref="product_kitchen"/>
+            <field name="sequence">2</field>
+        </record>
+
+        <record id="product_kitchen_swivelling_stool" model="product.public.category">
+            <field name="name">Swivelling stool (Fixed height)</field>
+            <field name="parent_id" ref="product_kitchen"/>
+            <field name="sequence">3</field>
+        </record>
+
+        <record id="product_kitchen_foldable_stool" model="product.public.category">
+            <field name="name">Foldable stool</field>
+            <field name="parent_id" ref="product_kitchen"/>
+            <field name="sequence">4</field>
+        </record>
+
+        <record id="product_kitchen_bar_stool" model="product.public.category">
+            <field name="name">Bar stool (Seat height 80cm)</field>
+            <field name="parent_id" ref="product_kitchen"/>
+            <field name="sequence">5</field>
+        </record> 
+
+        <record id="product_kitchen_table" model="product.public.category">
+            <field name="name">Table</field>
+            <field name="parent_id" ref="product_kitchen"/>
+            <field name="sequence">6</field>
+        </record>
+
+        ======
+        garden
+        ======
+        <record id="product_garden_shelter" model="product.public.category">
+            <field name="name">Robot lawn-mower shelter</field>
+            <field name="parent_id" ref="product_garden"/>
+            <field name="sequence">0</field>
+        </record>
+
+        <record id="product_garden_accessory" model="product.public.category">
+            <field name="name">Accessory</field>
+            <field name="parent_id" ref="product_garden"/>
+            <field name="sequence">1</field>
+        </record>
+
+        <record id="product_garden_chair" model="product.public.category">
+            <field name="name">Table</field>
+            <field name="parent_id" ref="product_garden"/>
+            <field name="sequence">2</field>
+        </record>
+
+        <record id="product_garden_chair" model="product.public.category">
+            <field name="name">Chair (Seat height 45cm)</field>
+            <field name="parent_id" ref="product_garden"/>
+            <field name="sequence">3</field>
+        </record>
+
+        <record id="product_garden_snack_bar_stool" model="product.public.category">
+            <field name="name">Snack-bar stool (Seat height 65cm)</field>
+            <field name="parent_id" ref="product_garden"/>
+            <field name="sequence">4</field>
+        </record> 
+
+        <record id="product_garden_bar_stool" model="product.public.category">
+            <field name="name">Bar stool (Seat height 80cm)</field>
+            <field name="parent_id" ref="product_garden"/>
+            <field name="sequence">5</field>
+        </record> 
+
+        <record id="product_garden_trolley" model="product.public.category">
+            <field name="name">Plancha trolley</field>
+            <field name="parent_id" ref="product_garden"/>
+            <field name="sequence">6</field>
+        </record>
+        <record id="product_garden_wheelbarrow" model="product.public.category">
+            <field name="name">Garden wheelbarrow</field>
+            <field name="parent_id" ref="product_garden"/>
+            <field name="sequence">7</field>
+        </record>
+
+    </data>
+</openerp>
