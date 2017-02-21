@@ -6,6 +6,7 @@
   <t t-call="website.layout">
     <t t-set="title">Products</t>
     <div class="oe_structure">
+       <!-- template texture picker -->
        <div class="container">
          <div class="row">
            <div class="col-sm-6">
@@ -64,6 +65,7 @@
            </div>
          </div>
       </div>
+      <!-- template texture picker -->
     </div>
   </t>
 </template>
