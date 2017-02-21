@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="/website_sale_custom/static/src/css/website_sale_custom.css" type="text/css"/>
       </xpath>
       <xpath expr="//script[last()]" position="after">
-        <script type="text/javascript" src="/website_sale_custom/static/src/js/old.js"/>
+        <script type="text/javascript" src="/website_sale_custom/static/src/js/website_sale_custom.js"/>
       </xpath>
     </template>
     <!-- Elements de tutoriel -->
